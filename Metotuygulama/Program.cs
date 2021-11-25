@@ -36,7 +36,7 @@ namespace Metotuygulama
             for (int i = 0; i < ort.Length; i++)
             {
                 toplam += ort[i];
-                ortalama = (int)toplam / (ort.Length);
+                ortalama = toplam / (ort.Length);
             }
             return ortalama;
         }
